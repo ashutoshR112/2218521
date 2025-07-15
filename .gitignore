@@ -1,0 +1,30 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# dotenv environment files
+.env
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage (if using tools like nyc, jest etc.)
+coverage/
+
+# Build output (if you later add TypeScript or bundlers)
+dist/
+build/
+
+# VSCode
+.vscode/
+
+# Optional - if you're deploying via Docker or similar
+docker-compose.override.yml
